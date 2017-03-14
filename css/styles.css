@@ -1,0 +1,130 @@
+/* Eric Meyer's CSS Reset
+   http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+   This is a Sass partial
+*/
+/* line 20, ../sass/reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 30, ../sass/reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 33, ../sass/reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 36, ../sass/reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 39, ../sass/reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 43, ../sass/reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 47, ../sass/reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* @font-face {
+    font-family: 'butlerbold';
+    src: url('butler_bold-webfont.woff2') format('woff2'),
+         url('butler_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'butlerregular';
+    src: url('butler_regular-webfont.woff2') format('woff2'),
+         url('butler_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+} */
+/* line 43, ../sass/styles.scss */
+h1, h2, h3, h4, h5, h6 {
+  color: white;
+  margin-bottom: 0.5em;
+}
+
+/* line 45, ../sass/styles.scss */
+h1 {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 8em;
+}
+
+/* line 46, ../sass/styles.scss */
+h2 {
+  font-family: "Roboto";
+  font-weight: 100;
+  font-size: 1.5em;
+  line-height: 1.2em;
+}
+
+/* line 48, ../sass/styles.scss */
+p {
+  font-family: "Roboto";
+  font-weight: 100;
+  font-size: 2em;
+  line-height: 2em;
+  color: white;
+}
+
+/* line 56, ../sass/styles.scss */
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* line 61, ../sass/styles.scss */
+body {
+  background-color: #373037;
+}
+
+/* line 65, ../sass/styles.scss */
+.intro {
+  position: relative;
+  margin: 0 auto;
+  clear: both;
+  top: 50%;
+  width: 90%;
+  text-align: center;
+}
