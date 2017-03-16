@@ -4,7 +4,6 @@
    License: none (public domain)
    This is a Sass partial
 */
-/* line 20, ../sass/reset.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -23,108 +22,66 @@ time, mark, audio, video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;
-}
+  vertical-align: baseline; }
 
 /* HTML5 display-role reset for older browsers */
-/* line 30, ../sass/reset.scss */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-  display: block;
-}
+  display: block; }
 
-/* line 33, ../sass/reset.scss */
 body {
-  line-height: 1;
-}
+  line-height: 1; }
 
-/* line 36, ../sass/reset.scss */
 ol, ul {
-  list-style: none;
-}
+  list-style: none; }
 
-/* line 39, ../sass/reset.scss */
 blockquote, q {
-  quotes: none;
-}
+  quotes: none; }
 
-/* line 43, ../sass/reset.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
-  content: none;
-}
+  content: none; }
 
-/* line 47, ../sass/reset.scss */
 table {
   border-collapse: collapse;
-  border-spacing: 0;
-}
+  border-spacing: 0; }
 
-/* @font-face {
-    font-family: 'butlerbold';
-    src: url('butler_bold-webfont.woff2') format('woff2'),
-         url('butler_bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'butlerregular';
-    src: url('butler_regular-webfont.woff2') format('woff2'),
-         url('butler_regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-} */
-/* line 43, ../sass/styles.scss */
-h1, h2, h3, h4, h5, h6 {
-  color: white;
-  margin-bottom: 0.5em;
-}
-
-/* line 45, ../sass/styles.scss */
-h1 {
-  font-family: "Playfair Display";
-  font-weight: 400;
-  font-size: 8em;
-}
-
-/* line 46, ../sass/styles.scss */
-h2 {
-  font-family: "Roboto";
-  font-weight: 100;
-  font-size: 1.5em;
-  line-height: 1.2em;
-}
-
-/* line 48, ../sass/styles.scss */
-p {
-  font-family: "Roboto";
-  font-weight: 100;
-  font-size: 2em;
-  line-height: 2em;
-  color: white;
-}
-
-/* line 56, ../sass/styles.scss */
-a {
-  color: white;
-  text-decoration: none;
-}
-
-/* line 61, ../sass/styles.scss */
 body {
-  background-color: #373037;
-}
+  background-color: #383038; }
 
-/* line 65, ../sass/styles.scss */
-.intro {
+h1 {
+  font-family: 'Poppins', helvetica, arial, sans-serif;
+  color: #827676;
+  line-height: 0.8em;
+  text-align: center;
   position: relative;
   margin: 0 auto;
-  clear: both;
-  top: 50%;
-  width: 90%;
-  text-align: center;
-}
+  margin-top: 30vh;
+  width: 11em;
+  font-size: 2em; }
+  @media screen and (min-width: 768px) {
+    h1 {
+      font-size: 3.8em;
+      width: 12em; } }
+  @media screen and (min-width: 1024px) {
+    h1 {
+      font-size: 4.5em;
+      width: 12em; } }
+  h1 span.name {
+    color: #ff4b00; }
+  h1 span.jobtitle {
+    color: #f6ba00; }
+  h1 span.skill {
+    color: #e3d7b0; }
+
+a, a:visited, a:active {
+  color: #01b2bb;
+  text-decoration: none; }
+  a:hover, a:visited:hover, a:active:hover {
+    cursor: pointer;
+    background-color: #01b2bb;
+    background-size: 80%;
+    color: white; }
+
+/*# sourceMappingURL=styles.css.map */

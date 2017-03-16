@@ -2,71 +2,64 @@
 
 @import 'reset';
 
-
-// Fonts
-
-/* @font-face {
-    font-family: 'butlerbold';
-    src: url('butler_bold-webfont.woff2') format('woff2'),
-         url('butler_bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'butlerregular';
-    src: url('butler_regular-webfont.woff2') format('woff2'),
-         url('butler_regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-} */
-
-
 // Variables
 
-$playfair: 'Playfair Display';
-$alegreya: 'Alegreya Sans'; 
-$roboto: 'Roboto';
-
-$white: #FFF;
-$black: #000;
-$darkgrey: #373037;
-$yellow: #EDBB28;
-$orange: #EDBB28;
-$blue: #359EB5;
+$greyblack: #383038;
+$orange: #ff4b00;
+$yellow: #f6ba00;
+$beige: #e3d7b0;
+$lightgrey: #827676;
+$blue: #01b2bb;
 
 
 // General Styles
 
-h1, h2, h3, h4, h5, h6 { color: $white; margin-bottom: 0.5em; }
-
-h1 { font-family: $playfair; font-weight: 400; font-size: 8em; }
-h2 { font-family: $roboto; font-weight: 100; font-size: 1.5em; line-height: 1.2em; }
-
-p { 
-	font-family: $roboto;
-	font-weight: 100; 
-	font-size: 2em;
-	line-height: 2em;
-	color: $white;
-}
-
-a {
-	color: $white;
-	text-decoration: none;
-}
-
 body {
-	background-color: $darkgrey;
+	background-color: $greyblack;
 }
 
-.intro {
+h1 { 
+	font-family: 'Poppins', helvetica, arial, sans-serif;
+	color: $lightgrey; 
+	line-height: 0.8em;
+	text-align: center;
 	position: relative;
 	margin: 0 auto;
-	clear: both;
-	top: 50%;
-	width: 90%;
-	text-align: center;
+	margin-top: 30vh;
+	width: 11em;
+	font-size: 2em;
+
+	@media screen and (min-width: 768px) {
+		font-size: 3.8em;
+		width: 12em;
+	}
+
+	@media screen and (min-width: 1024px) {
+		font-size: 4.5em;
+		width: 12em;
+	}
+
+	span {
+		&.name {
+			color: $orange;
+		}
+		&.jobtitle {
+			color: $yellow;
+		}
+		&.skill {
+			color: $beige;
+		}
+	}
+}
+
+a, a:visited, a:active {
+	color: $blue;
+	text-decoration: none;
+
+	&:hover {
+		cursor: pointer;
+		background-color: $blue;
+		background-size: 80%;
+		color: white;
+	}
 }
